@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/swift4linux.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/testSwift.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/test7.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/test7.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/testSwift.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/testEventLooper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/testEventLooper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/Base64.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/DMLog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/Base64.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/DMLog.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/LibSha1.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/Double2CharStr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/LibSha1.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lib/Double2CharStr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/SwiftData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/stringifyCode.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/SwiftData.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/Parser.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/Excutor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/Context.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/Excutor_Class.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/DataSpace.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/Excutor_Controlflow.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/DataSpace.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/Context.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/OperatorMap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/Excutor_Function.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/Excutor_Expression.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/Excutor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/excutor/OperatorMap.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/build_in_modules/log.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/build_in_modules/ImportModules.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/build_in_modules/module.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/build_in_modules/log.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/build_in_modules/module.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/build_in_modules/ImportModules.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/Swift.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/Swift.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/Parser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/swift1/stringifyCode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/eventLooper/EventLooper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/eventLooper/DMLIST_Atomic.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/eventLooper/DMLIST_Atomic.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/eventLooper/EventLooper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/eventLooper/SwiftTimer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/eventLooper/SwiftTimer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/storage/JSONBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/storage/Storage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/storage/JSONBase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/storage/Storage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/storage/JSONBaseShell.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/storage/JSONBaseShell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/MemoryMap_malloc.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMList.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMBool.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMBool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMJSONHelper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMHashTable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/MemoryMap_setup.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/MemoryMap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMSpaceType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMHashTable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMJSON.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMString.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMString.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/MemoryMap_free.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMJSON.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMCore.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMCore.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMNumber.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMJSONHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DM/DMNumber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/baselib/temp_string.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/baselib/temp_string.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/baselib/DMLinux.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/baselib/DMLinux.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://D:/mingw/lib/gcc/mingw32/4.9.3/include-fixed" />
+          <root url="file://D:/mingw/lib/gcc/mingw32/4.9.3/include" />
+          <root url="file://D:/mingw/mingw32/include" />
+          <root url="file://D:/mingw/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://D:/mingw/lib/gcc/mingw32/4.9.3/include-fixed" />
+          <root url="file://D:/mingw/lib/gcc/mingw32/4.9.3/include" />
+          <root url="file://D:/mingw/mingw32/include" />
+          <root url="file://D:/mingw/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

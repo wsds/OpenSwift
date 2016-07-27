@@ -1,0 +1,85 @@
+cmake_minimum_required(VERSION 3.5)
+project(OpenSwift)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DMINGW -std=gnu++11 -Wwrite-strings -Wall -fpermissive -Wno-unused-variable -Wno-write-strings")
+
+set(SOURCE_FILES
+        src/baselib/temp_string.cpp
+        src/baselib/temp_string.h
+        src/DM/DMBool.cpp
+        src/DM/DMBool.h
+        src/DM/DMCore.cpp
+        src/DM/DMCore.h
+        src/DM/DMHashTable.cpp
+        src/DM/DMHashTable.h
+        src/DM/DMJSON.cpp
+        src/DM/DMJSON.h
+        src/DM/DMJSONHelper.cpp
+        src/DM/DMJSONHelper.h
+        src/DM/DMList.cpp
+        src/DM/DMList.h
+        src/DM/DMNumber.cpp
+        src/DM/DMNumber.h
+        src/DM/DMSpaceType.h
+        src/DM/DMString.cpp
+        src/DM/DMString.h
+        src/DM/MemoryMap.h
+        src/DM/MemoryMap_free.cpp
+        src/DM/MemoryMap_malloc.cpp
+        src/DM/MemoryMap_setup.cpp
+        src/eventLooper/DMLIST_Atomic.cpp
+        src/eventLooper/DMLIST_Atomic.h
+        src/eventLooper/EventLooper.cpp
+        src/eventLooper/EventLooper.h
+        src/eventLooper/SwiftTimer.cpp
+        src/eventLooper/SwiftTimer.h
+        src/lib/Base64.cpp
+        src/lib/Base64.h
+        src/lib/DMLog.cpp
+        src/lib/DMLog.h
+        src/lib/Double2CharStr.cpp
+        src/lib/Double2CharStr.h
+        src/lib/LibSha1.cpp
+        src/lib/LibSha1.h
+        src/storage/JSONBase.cpp
+        src/storage/JSONBase.h
+        src/storage/JSONBaseShell.cpp
+        src/storage/JSONBaseShell.h
+        src/storage/Storage.cpp
+        src/storage/Storage.h
+        src/swift1/excutor/Context.cpp
+        src/swift1/excutor/Context.h
+        src/swift1/excutor/DataSpace.cpp
+        src/swift1/excutor/DataSpace.h
+        src/swift1/excutor/Excutor.cpp
+        src/swift1/excutor/Excutor.h
+        src/swift1/excutor/Excutor_Class.cpp
+        src/swift1/excutor/Excutor_Controlflow.cpp
+        src/swift1/excutor/Excutor_Expression.cpp
+        src/swift1/excutor/Excutor_Function.cpp
+        src/swift1/excutor/OperatorMap.cpp
+        src/swift1/excutor/OperatorMap.h
+        src/swift1/Parser.cpp
+        src/swift1/Parser.h
+        src/swift1/stringifyCode.cpp
+        src/swift1/stringifyCode.h
+        src/swift1/Swift.cpp
+        src/swift1/Swift.h
+        src/swift1/SwiftData.cpp
+        src/swift1/SwiftData.h
+        src/test/test7.cpp
+        src/test/test7.h
+        src/test/testEventLooper.cpp
+        src/test/testEventLooper.h
+        src/test/testSwift.cpp
+        src/test/testSwift.h
+        src/swift4linux.cpp src/baselib/DMLinux.cpp
+        src/baselib/DMLinux.h
+        src/swift1/build_in_modules/module.cpp
+        src/swift1/build_in_modules/module.h
+        src/swift1/build_in_modules/log.cpp
+        src/swift1/build_in_modules/log.h
+        src/swift1/build_in_modules/ImportModules.cpp
+        src/swift1/build_in_modules/ImportModules.h)
+
+add_executable(OpenDM ${SOURCE_FILES})
