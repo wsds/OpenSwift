@@ -1,9 +1,12 @@
 # OpenSwift
-OpenSwift official mirror in GitHub.
+OpenSwift official mirror in GitHub, which will be updated approximately monthly.
+
+The daily development of OpenSwift in hosted by HG. To follow or participate our daily update, Please use:
+hg clone http://123.57.56.119:8000/
 
 #Open Swift 基础篇
 
-标签（空格分隔）： swift 编程语言
+标签： swift 编程语言
 
 ![image_1aodbphlqm7l2j3vah1tcl1im5m.png-24.5kB][2]
 
@@ -30,7 +33,7 @@ break continue else for if while
 
 我们希望这套新的编程语言能像苹果的swift一样，广泛应用在将来的移动计算的场景之中，所以给它取名为Open Swift。
 
-项目地址：https://github.com/
+项目地址：https://github.com/wsds/OpenSwift
 
 技术的发展都是在围绕着解决“软件的复杂度”这个基本的需求而发展的。对于所有的问题，Open Swift都希望采用简单直观的解决方案，不会为了显示聪明而采用繁复的抽象。Open Swift没有柯里化、原型链、虚函数表这些难以理解的概念。
 
